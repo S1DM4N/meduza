@@ -1,0 +1,90 @@
+body { 
+    background: url('../img/фон_главная.svg') no-repeat;
+    background-position: bottom;
+}
+
+header {
+    font-family: Comfortaa;
+}
+
+.med {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 110px;
+    margin-left: 107px;
+}
+
+.cntc {
+    margin-top: 230px;
+    margin-left: 107px;
+}
+
+.ysl {
+    margin-top: -357px;
+    margin-left: 961px;
+}
+
+.nov {
+    margin-top: 100px;
+    margin-left: 107px;
+}
+
+.intr {
+    margin-top: -353px;
+    margin-left: 961px;
+}
+
+.lonas {
+    font-size: 32px;
+    margin-top: 200px;
+    margin-left: 462px;
+    color: black;
+}
+
+.lgarantii {
+    font-size: 32px;
+    margin-top: -32px;
+    margin-left: 697px;
+}
+
+.lcont {
+    font-size: 32px;
+    margin-top: -32px;
+    margin-left: 1012px;
+}
+
+.lyslg {
+    font-size: 32px;
+    margin-top: -32px;
+    margin-left: 1334px;
+}
+
+/* подвал */
+
+footer .onas {
+    position: absolute;
+    top: 954px;
+    left: 145px;
+}
+
+footer .garant {
+    position: absolute;
+    top: 954px;
+    left: 307px;
+}
+
+footer .cont {
+    position: absolute;
+    top: 954px;
+    left: 726px;
+}
+
+footer .yslyg {
+    position: absolute;
+    top: 954px;
+    left: 549px;
+}
+
+footer {
+    margin-bottom: 65px;
+}

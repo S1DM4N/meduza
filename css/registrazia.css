@@ -1,0 +1,83 @@
+body { 
+    font-family: Comfortaa;
+    font-size: 32px;
+    background: url('../img/авторизация_фон.svg') no-repeat;
+    background-position: top;
+    overflow-x: hidden;
+    height: 1080px;
+}
+
+.medu {
+    color: white;
+    font-size: 48px;
+    margin-top: 84px;
+    margin-left: 840px;
+}
+
+.avto {
+    position: absolute;
+    font-size: 36px;
+    font-weight: bolder;
+    top: 394px;
+    left: 826px;
+}
+
+.chti {
+    font-size: 45px;
+    font-weight: bold;
+    display: flex;
+    margin-top: 158px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chti form {
+    /* display: flex; */
+    width: 774px;
+    font-weight: lighter;
+}
+
+.chti input{
+    text-align: left;
+    font-size: 30px;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: white;
+    color: #B3B9D3;
+    font-family: Comfortaa;
+    background: #8B93B7;
+    padding: 11px 400px 11px 26px;
+    margin-top: 30px;
+}
+
+button {
+    margin-top: 40px;
+    font-family: Comfortaa;
+    font-size: 32px;
+    border-radius: 10px;
+    border-color: white;
+    padding: 10px 10px;
+    border: 0;
+}
+
+.mes {
+    padding: 15px 20px;
+    background-color: #ff9c7e;
+    color: white;
+    width: 628px;
+    border-radius: 20px;
+    margin: 40px auto 0 auto;
+}
+
+.mes {
+    text-align: center;
+}
+
+/* подвал */
+
+.reg {
+    font-size: 24px;
+    font-weight: lighter;
+    margin-top: 40px;
+    text-align: center;
+}

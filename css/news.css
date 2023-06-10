@@ -1,0 +1,148 @@
+body { 
+    background: url('../img/фон_новости.svg')  no-repeat;
+    background-position: top;
+    overflow-x: hidden;
+    height: 3195px;
+}
+
+header {
+    font-family: Comfortaa;
+}
+
+.medu {
+    color: white;
+    font-size: 48px;
+    margin-top: 84px;
+    margin-left: 840px;
+}
+
+.main {
+    font-family: Comfortaa;
+}
+
+.text {
+    font-size: 32px;
+    margin-top: 165px;
+    margin-left: 260px;
+    margin-right: 215px;
+}
+
+.aa {
+    font-size: 36px;
+    font-weight: bold;
+    position: absolute;
+    top: 53px;
+    left: 828px;
+}
+
+.bb {
+    font-size: 32px;
+    position: absolute;
+    top: 172px;
+    left: 689px;
+}
+
+.ping {
+    position: absolute;
+    top: 563px;
+    left: 0px;
+}
+
+.krilat {
+    position: absolute;
+    top: 1168px;
+    left: 0px;
+}
+
+.cc {
+    font-size: 36px;
+    font-weight: bold;
+    position: absolute;
+    top: 53px;
+    left: 946px;
+}
+
+.jj {
+    font-size: 32px;
+    position: absolute;
+    top: 172px;
+    left: 689px;
+}
+
+.teni {
+    position: absolute;
+    top: 1773px;
+    left: 0px;
+}
+
+.tetext {
+    font-size: 36px;
+    font-weight: bold;
+    position: absolute;
+    top: 53px;
+    left: 1039px;
+}
+
+.tetix {
+    font-size: 32px;
+    position: absolute;
+    top: 172px;
+    left: 689px;
+    right: 44px;
+}
+
+.sanitar {
+    position: absolute;
+    top: 2378px;
+    left: 0px;
+}
+
+.santext {
+    font-size: 36px;
+    font-weight: bold;
+    position: absolute;
+    top: 53px;
+    left: 1101px;
+}
+
+.sant {
+    font-size: 32px;
+    position: absolute;
+    top: 172px;
+    left: 689px;
+}
+
+footer {
+    font-family: Comfortaa;
+    font-size: 32px;
+}
+
+.onas {
+    position: absolute;
+    top: 3112px;
+    left: 400px;
+}
+
+.garant {
+    position: absolute;
+    top: 3112px;
+    left: 622px;
+}
+
+.cont {
+    position: absolute;
+    top: 3112px;
+    left: 924px;
+}
+
+.yslyg {
+    position: absolute;
+    top: 3112px;
+    left: 1234px;
+}
+
+.user {
+    position: absolute;
+    top: 3083px;
+    left: 1470px;
+}

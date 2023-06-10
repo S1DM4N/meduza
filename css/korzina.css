@@ -1,0 +1,173 @@
+body { 
+    font-family: Comfortaa;
+    font-size: 32px;
+    background: url('../img/фон_корзина.svg') no-repeat;
+    overflow-x: hidden;
+    height: 1900px;
+}
+
+.medu {
+    color: white;
+    font-size: 48px;
+    margin-top: 84px;
+    margin-left: 840px;
+}
+
+.kor {
+    position: absolute;
+    top: 212px;
+    left: 134px;
+}
+
+.ko {
+    position: absolute;
+    top: 227px;
+    left: 212px;
+}
+
+/* футболка */
+
+.shirt {
+    position: absolute;
+    top: 372px;
+    left: 82px;
+}
+
+.futbolk {
+    position: absolute;
+    top: 25px;
+    left: 22px;
+}
+
+.nazc {
+    font-size: 36px;
+    font-weight: bold;
+    position: absolute;
+    top: 25px;
+    left: 417px;
+}
+
+.opisanie {
+    font-weight: lighter;
+    font-size: 32px;
+    position: absolute;
+    top: 96px;
+    left: 417px;
+}
+
+/* кепка */
+
+.cap {
+    position: absolute;
+    top: 750px;
+    left: 82px;
+}
+
+.kepka {
+    position: absolute;
+    top: 25px;
+    left: 22px;
+}
+
+.nazv {
+    font-size: 36px;
+    font-weight: bold;
+    position: absolute;
+    top: 25px;
+    left: 417px;
+}
+
+.opi {
+    font-weight: lighter;
+    font-size: 32px;
+    position: absolute;
+    top: 96px;
+    left: 417px;
+}
+
+/* ламантин */
+
+.lamantin {
+    position: absolute;
+    top: 1128px;
+    left: 82px;
+}
+
+.nazva {
+    font-size: 36px;
+    font-weight: bold;
+    position: absolute;
+    top: 25px;
+    left: 417px;
+}
+
+.opis {
+    font-weight: lighter;
+    font-size: 32px;
+    position: absolute;
+    top: 96px;
+    left: 417px;
+}
+
+.lamant {
+    position: absolute;
+    top: 25px;
+    left: 22px;
+}
+
+button {
+    position: absolute;
+    top: 1538px;
+    left: 807px;
+    font-family: Comfortaa;
+    font-size: 40px;
+    border-radius: 45px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    user-select: none; 
+    background: #10284C;
+    padding: 22px 68px; 
+}
+
+.onas {
+    position: absolute;
+    top: 1816px;
+    left: 400px;
+}
+
+.garant {
+    position: absolute;
+    top: 1816px;
+    left: 622px;
+}
+
+.cont {
+    position: absolute;
+    top: 1816px;
+    left: 924px;
+}
+
+.yslyg {
+    position: absolute;
+    top: 1816px;
+    left: 1233px;
+}
+
+.user {
+    position: absolute;
+    top: 1786px;
+    left: 1470px;
+}
+
+.tick {
+    position: absolute;
+    top: 1816px;
+    left: 150px;
+}
+
+.merch {
+    position: absolute;
+    top: 753px;
+    left: 966px;
+}

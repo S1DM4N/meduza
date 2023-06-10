@@ -1,0 +1,68 @@
+body { 
+    font-family: Comfortaa;
+    font-size: 32px;
+    background: url('../img/фон_инт.карта.svg') no-repeat;
+    background-position: top;
+    overflow-x: hidden;
+    height: 1377px;
+}
+
+.medu {
+    color: white;
+    font-size: 48px;
+    margin-top: 84px;
+    margin-left: 840px;
+}
+
+.onas {
+    position: absolute;
+    top: 1312px;
+    left: 400px;
+}
+
+.garant {
+    position: absolute;
+    top: 1312px;
+    left: 622px;
+}
+
+.cont {
+    position: absolute;
+    top: 1312px;
+    left: 924px;
+}
+
+.yslyg {
+    position: absolute;
+    top: 1312px;
+    left: 1234px;
+}
+
+footer {
+    font-family: Comfortaa;
+    font-size: 32px;
+}
+
+.user {
+    position: absolute;
+    top: 1284px;
+    left: 1470px;
+}
+
+.karta {
+    position: absolute;
+    top: 340px;
+    left: 350px;
+}
+
+.tochk {
+    position: absolute;
+    top: 1079px;
+    left: 546px;
+}
+
+.tocjtext {
+    position: absolute;
+    top: 1102px;
+    left: 590px;
+}

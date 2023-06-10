@@ -1,0 +1,81 @@
+body { 
+    font-family: Comfortaa;
+    background: url('../img/фон_онас.svg') no-repeat;
+    background-position: top;
+    overflow-x: hidden;
+    height: 1520px;
+}
+
+.medu {
+    color: white;
+    font-size: 48px;
+    margin-top: 84px;
+    margin-left: 840px;
+}
+
+.text {
+    font-size: 32px;
+    position: absolute;
+    top: 352px;
+    left: 190px;
+    right: 130px;
+}
+
+.fish {
+    position: absolute;
+    top: 520px;
+    left: 1324px;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.photo {
+    position: absolute;
+    top: 700px;
+    left: 260px;
+}
+
+.onas {
+    position: absolute;
+    top: 1468px;
+    left: 400px;
+}
+
+.garant {
+    position: absolute;
+    top: 1468px;
+    left: 622px;
+}
+
+.cont {
+    position: absolute;
+    top: 1468px;
+    left: 924px;
+}
+
+.yslyg {
+    position: absolute;
+    top: 1468px;
+    left: 1234px;
+}
+
+footer {
+    font-family: Comfortaa;
+    font-size: 32px;
+}
+
+.user {
+    position: absolute;
+    top: 1439px;
+    left: 1470px;
+}

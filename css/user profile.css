@@ -1,0 +1,220 @@
+body { 
+    font-family: Comfortaa;
+    font-size: 32px;
+    background: url('../img/фон_личный_каб.svg') no-repeat;
+    background-position: top;
+    overflow-x: hidden;
+    height: 1000px;
+}
+
+.footer a {
+    color: black;
+}
+
+.medu {
+    color: white;
+    font-size: 48px;
+    margin-top: 58px;
+    margin-left: 840px;
+}
+
+.out {
+    position: absolute;
+    top: 48px;
+    left: 1654px;
+    color: #FFFFFF;
+    font-size: 32px;
+}
+
+.lichniy {
+    font-size: 40px;
+    font-weight: bolder;
+    position: absolute;
+    top: 229px;
+    left: 146px;
+}
+
+/* вывод имени */
+
+.infoname {
+    color: #D3D7E9;
+    font-size: 32px;
+    font-weight: lighter;
+    background: #91ACC0;
+    border-radius: 20px;
+    padding: 11px 22px 11px 22px;
+    margin-right: 12px;
+}
+
+.vivodname {
+    color: #9AA6AE;
+    font-size: 32px;
+    font-weight: lighter;
+    background: #EFF3F6;
+    border-radius: 20px;
+    padding: 11px 0 11px 22px;
+    width: 100%;
+}
+
+/* вывод фамилии */
+
+.infofam {
+    color: #D3D7E9;
+    font-size: 32px;
+    font-weight: lighter;
+    background: #91ACC0;
+    border-radius: 20px;
+    padding: 11px 22px 11px 22px;
+    margin-right: 12px;
+}
+
+.vivodfam {
+    color: #9AA6AE;
+    font-size: 32px;
+    font-weight: lighter;
+    background: #EFF3F6;
+    border-radius: 20px;
+    padding: 11px 0 11px 17px;
+    width: 100%;
+}
+
+/* вывод почты */
+
+.infoemail {
+    color: #D3D7E9;
+    font-size: 32px;
+    font-weight: lighter;
+    background: #91ACC0;
+    border-radius: 20px;
+    padding: 11px 22px 11px 22px;
+    margin-right: 12px;
+}
+
+.vivodemail {
+    color: #9AA6AE;
+    font-size: 32px;
+    font-weight: lighter;
+    background: #EFF3F6;
+    border-radius: 20px;
+    padding: 11px 0 11px 17px;
+    width: 100%;
+}
+
+.pers_data {
+    width: 700px;
+    position: absolute;
+    top: 330px;
+    left: 145px;
+}
+
+.blck {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+/* история покупок */
+
+.history {
+    background: #EFF3F6;
+    border-radius: 10px;
+    width: 701px;
+    height: 761px;
+    position: absolute;
+    top: 229px;
+    left: 1074px;
+}
+
+.text {
+    font-size: 36px;
+    color: #4F687B;
+    position: absolute;
+    top: 45px;
+    left: 176px;
+}
+
+/* история билеты */
+
+.backbilet  {
+    background: #D6E4EF;
+    border-radius: 30px;
+    width: 648px;
+    height: 120px;
+    position: absolute;
+    top: 150px;
+    left: 27px;
+}
+
+.bilet {
+    color: #8FA9BD;
+    font-size: 32px;
+    position: absolute;
+    top: 42px;
+    left: 187px;
+}
+
+/* история покупок */
+
+.backpokypki  {
+    background: #D6E4EF;
+    border-radius: 30px;
+    width: 648px;
+    height: 120px;
+    position: absolute;
+    top: 287px;
+    left: 27px;
+}
+
+.pokypki {
+    color: #8FA9BD;
+    font-size: 32px;
+    position: absolute;
+    top: 42px;
+    left: 187px;
+}
+
+/* корзина */
+
+.korzn {
+    font-size: 32px;
+    position: absolute;
+    top: 828px;
+    left: 462px;
+    display: flex;
+    align-items: end;
+}
+
+.korzn img {
+    margin-right: 13px;
+}
+
+.imgkorzn {
+    position: absolute;
+    top: 816px;
+    left: 395px;
+}
+
+/* подвал */
+
+.onas {
+    position: absolute;
+    top: 954px;
+    left: 145px;
+}
+
+.garant {
+    position: absolute;
+    top: 954px;
+    left: 307px;
+}
+
+.cont {
+    position: absolute;
+    top: 954px;
+    left: 726px;
+}
+
+.yslyg {
+    position: absolute;
+    top: 954px;
+    left: 549px;
+}

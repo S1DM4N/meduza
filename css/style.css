@@ -1,0 +1,41 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+*, body {
+    padding: 0;
+    margin: 0;
+    font-family: Comfortaa;
+    font-weight: 400;
+}
+
+/* хеадер */
+
+header {
+    font-size: 32px;
+    line-height: 36px;
+}
+
+header ul { 
+    display: flex;
+    list-style-type: none;
+    margin: 98px 168px 100px 113px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li:first-child {
+    margin-right: 21px;
+    font-weight: 700;
+    font-size: 48px;
+    margin-left: 0;
+}
+
+header li:last-child {
+    margin-left: 147px;
+}
+
+header li {
+    margin-left: 120px;
+}

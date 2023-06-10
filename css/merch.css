@@ -1,0 +1,645 @@
+body { 
+    font-family: Comfortaa;
+    font-size: 32px;
+    background: url('../img/фон_мерч.svg') no-repeat;
+    background-position: top;
+    overflow-x: hidden;
+    height: 5367px;
+}
+
+.medu {
+    color: white;
+    font-size: 48px;
+    margin-top: 84px;
+    margin-left: 840px;
+}
+
+.text {
+    position: absolute;
+    top: 294px;
+    left: 325px;
+    right: 324px;
+}
+
+/* одежда */
+
+/* футболка */
+
+.odezda {
+    font-size: 48px;
+    font-weight: bold;
+    position: absolute;
+    top: 575px;
+    left: 120px;
+}
+
+.shirt {
+    position: absolute;
+    top: 730px;
+    left: 120px;
+}
+
+.futbolk {
+    position: absolute;
+    top: 45px;
+    left: 50px;
+}
+
+.nazv {
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 394px;
+    left: 175px;
+}
+
+.zvet {
+    font-weight: lighter;
+    position: absolute;
+    top: 468px;
+    left: 90px;
+}
+
+.kto {
+    font-weight: lighter;
+    position: absolute;
+    top: 468px;
+    left: 437px;
+}
+
+button {
+    position: absolute;
+    top: 546px;
+    left: 271px;
+    font-family: Comfortaa;
+    font-size: 32px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    user-select: none; 
+    background: #4E88A6;
+    padding: 14px 17px; 
+}
+
+/* кепка */
+
+.kepka {
+    position: absolute;
+    top: 1441px;
+    left: 120px;
+}
+
+.cepka {
+    position: absolute;
+    top: 45px;
+    left: 50px;
+}
+
+.nazvdva {
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 394px;
+    left: 221px;
+}
+
+.zvetdva {
+    font-weight: lighter;
+    position: absolute;
+    top: 468px;
+    left: 90px;
+}
+
+.ktodva {
+    font-weight: lighter;
+    position: absolute;
+    top: 468px;
+    left: 437px;
+}
+
+button {
+    position: absolute;
+    top: 546px;
+    left: 271px;
+    font-family: Comfortaa;
+    font-size: 32px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    user-select: none; 
+    background: #4E88A6;
+    padding: 14px 17px; 
+}
+
+/* свитер */
+
+.sviter {
+    position: absolute;
+    top: 730px;
+    left: 997px;
+}
+
+.switer {
+    position: absolute;
+    top: 45px;
+    left: 50px;
+}
+
+.nazvone {
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 394px;
+    left: 198px;
+}
+
+.zvetone {
+    font-weight: lighter;
+    position: absolute;
+    top: 468px;
+    left: 90px;
+}
+
+.ktoone {
+    font-weight: lighter;
+    position: absolute;
+    top: 468px;
+    left: 437px;
+}
+
+button {
+    position: absolute;
+    top: 546px;
+    left: 271px;
+    font-family: Comfortaa;
+    font-size: 32px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    user-select: none; 
+    background: #4E88A6;
+    padding: 14px 17px; 
+}
+
+/* детская футболка */
+
+.futblk {
+    position: absolute;
+    top: 2152px;
+    left: 120px;
+}
+
+.futdet {
+    position: absolute;
+    top: 45px;
+    left: 50px;
+}
+
+.nazvtri {
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 394px;
+    left: 221px;
+}
+
+.zvettri {
+    font-weight: lighter;
+    position: absolute;
+    top: 468px;
+    left: 90px;
+}
+
+.ktotri {
+    font-weight: lighter;
+    position: absolute;
+    top: 468px;
+    left: 437px;
+}
+
+button {
+    position: absolute;
+    top: 546px;
+    left: 271px;
+    font-family: Comfortaa;
+    font-size: 32px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    user-select: none; 
+    background: #4E88A6;
+    padding: 14px 17px; 
+}
+
+
+/* носки */
+
+.nosochki {
+    position: absolute;
+    top: 1441px;
+    left: 997px;
+}
+
+.noski {
+    position: absolute;
+    top: 45px;
+    left: 50px;
+}
+
+.nazvcher {
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 394px;
+    left: 217px;
+}
+
+.zvetcher {
+    font-weight: lighter;
+    position: absolute;
+    top: 468px;
+    left: 90px;
+}
+
+.ktocher {
+    font-weight: lighter;
+    position: absolute;
+    top: 468px;
+    left: 437px;
+}
+
+button {
+    position: absolute;
+    top: 546px;
+    left: 271px;
+    font-family: Comfortaa;
+    font-size: 32px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    user-select: none; 
+    background: #4E88A6;
+    padding: 14px 17px; 
+}
+
+/* кепка детская */
+
+.kepkadet {
+    position: absolute;
+    top: 2152px;
+    left: 997px;
+}
+
+.detkepk {
+    position: absolute;
+    top: 45px;
+    left: 50px;
+}
+
+.nazvpyatr {
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 394px;
+    left: 228px;
+}
+
+.zvetcpyat {
+    font-weight: lighter;
+    position: absolute;
+    top: 468px;
+    left: 90px;
+}
+
+.ktocpyat {
+    font-weight: lighter;
+    position: absolute;
+    top: 468px;
+    left: 437px;
+}
+
+button {
+    position: absolute;
+    top: 546px;
+    left: 271px;
+    font-family: Comfortaa;
+    font-size: 32px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    user-select: none; 
+    background: #4E88A6;
+    padding: 14px 17px; 
+}
+
+/* ламантин */
+
+.lamantin {
+    position: absolute;
+    top: 3063px;
+    left: 120px;
+}
+
+.lam {
+    position: absolute;
+    top: 45px;
+    left: 50px;
+}
+
+.navz {
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 394px;
+    left: 284px;
+}
+
+.tvez {
+    font-weight: lighter;
+    position: absolute;
+    top: 468px;
+    left: 221px;
+}
+
+button {
+    position: absolute;
+    top: 546px;
+    left: 271px;
+    font-family: Comfortaa;
+    font-size: 32px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    user-select: none; 
+    background: #4E88A6;
+    padding: 14px 17px; 
+}
+
+/* косатка */
+
+.kasatka {
+    position: absolute;
+    top: 3774px;
+    left: 120px;
+}
+
+.kasat {
+    position: absolute;
+    top: 45px;
+    left: 50px;
+}
+
+.navzone {
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 394px;
+    left: 306px;
+}
+
+.tvezone {
+    font-weight: lighter;
+    position: absolute;
+    top: 468px;
+    left: 244px;
+}
+
+button {
+    position: absolute;
+    top: 546px;
+    left: 271px;
+    font-family: Comfortaa;
+    font-size: 32px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    user-select: none; 
+    background: #4E88A6;
+    padding: 14px 17px; 
+}
+
+/* дельфин */
+
+.delphin {
+    position: absolute;
+    top: 4485px;
+    left: 120px;
+}
+
+.delp {
+    position: absolute;
+    top: 45px;
+    left: 50px;
+}
+
+.navzdve {
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 394px;
+    left: 304px;
+}
+
+.tvezdve {
+    font-weight: lighter;
+    position: absolute;
+    top: 468px;
+    left: 221px;
+}
+
+button {
+    position: absolute;
+    top: 546px;
+    left: 271px;
+    font-family: Comfortaa;
+    font-size: 32px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    user-select: none; 
+    background: #4E88A6;
+    padding: 14px 17px; 
+}
+
+/* обычный ламантин */
+
+.obilam {
+    position: absolute;
+    top: 3063px;
+    left: 997px;
+}
+
+.obichlam {
+    position: absolute;
+    top: 45px;
+    left: 50px;
+}
+
+.navztri {
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 394px;
+    left: 111px;
+}
+
+.tveztri {
+    font-weight: lighter;
+    position: absolute;
+    top: 468px;
+    left: 221px;
+}
+
+button {
+    position: absolute;
+    top: 546px;
+    left: 271px;
+    font-family: Comfortaa;
+    font-size: 32px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    user-select: none; 
+    background: #4E88A6;
+    padding: 14px 17px; 
+}
+
+/* скат леопардовый */
+
+.skat {
+    position: absolute;
+    top: 3774px;
+    left: 997px;
+}
+
+.skati {
+    position: absolute;
+    top: 45px;
+    left: 50px;
+}
+
+.navzcher {
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 394px;
+    left: 195px;
+}
+
+.tvezcher {
+    font-weight: lighter;
+    position: absolute;
+    top: 468px;
+    left: 234px;
+}
+
+button {
+    position: absolute;
+    top: 546px;
+    left: 271px;
+    font-family: Comfortaa;
+    font-size: 32px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    user-select: none; 
+    background: #4E88A6;
+    padding: 14px 17px; 
+}
+
+/* черепаха */
+
+.cherepaha {
+    position: absolute;
+    top: 4485px;
+    left: 997px;
+}
+
+.cher {
+    position: absolute;
+    top: 45px;
+    left: 50px;
+}
+
+.navzpyat {
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 394px;
+    left: 296px;
+}
+
+.tvezpyat {
+    font-weight: lighter;
+    position: absolute;
+    top: 468px;
+    left: 161px;
+}
+
+button {
+    position: absolute;
+    top: 546px;
+    left: 271px;
+    font-family: Comfortaa;
+    font-size: 32px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    user-select: none; 
+    background: #4E88A6;
+    padding: 14px 17px; 
+}
+
+/* игрушки */
+
+.igrushki {
+    font-size: 48px;
+    font-weight: bold;
+    position: absolute;
+    top: 2908px;
+    left: 120px;
+}
+
+/* подвал */
+
+.onas {
+    position: absolute;
+    top: 5284px;
+    left: 400px;
+}
+
+.garant {
+    position: absolute;
+    top: 5284px;
+    left: 622px;
+}
+
+.cont {
+    position: absolute;
+    top: 5284px;
+    left: 924px;
+}
+
+.yslyg {
+    position: absolute;
+    top: 5284px;
+    left: 1233px;
+}
+
+.user {
+    position: absolute;
+    top: 5255px;
+    left: 1470px;
+}

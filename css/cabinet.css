@@ -1,0 +1,105 @@
+body { 
+    font-family: Comfortaa;
+    font-size: 32px;
+    background-image: url('../../img/фон_кабинет.svg') no-repeat;
+    background-position: top;
+    overflow-x: hidden;
+}
+
+.medu {
+    color: white;
+    font-size: 48px;
+    position: absolute;
+    top: 49px;
+    left: 845px;
+}
+
+.boyti {
+    position: absolute;
+    top: 48px;
+    left: 1654px;
+    font-size: 32px;
+    color: white;
+}
+
+.chti {
+    font-size: 45px;
+    font-weight: bold;
+    display: flex;
+    margin-top: 90px;
+    /* margin-right: 965px; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.chti form {
+    /* display: flex; */
+    width: 774px;
+}
+
+.chti input{
+    text-align: left;
+    font-size: 30px;
+    border-color: #2E221F;
+    border-width: 2px;
+    font-family: Comfortaa;
+    color: #BFA8A2;
+    background: white;
+    padding: 20px 400px 20px 10px;
+    margin-bottom: 30px;
+}
+
+.rght {
+    border: 2px solid #2E221F;
+    padding: 19px 24px;
+    margin: 21px;
+}
+
+.rght .history {
+    background: #BFA8A2;
+    border: 1px solid #936E64;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 39px;
+    text-decoration: none;
+    color: #1A0D0A;
+    padding: 36px 249px;
+}
+
+.h_blok {
+    background: #E8DDDA;
+    padding: 33px 0;
+    margin-top: 35px;
+}
+
+.h_blok p {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    color: #956F65;
+    text-align: center;
+}
+
+.h_blok p:last-child  {
+    margin-top: 11px;
+}
+
+button {
+    font-family: 'Comfortaa';
+    font-size: 35px;
+    border: 1px solid white;
+    background: white;
+    color: #1A0D0A;
+    padding: 10px 10px;
+    margin-left: 120px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 55px;
+}   

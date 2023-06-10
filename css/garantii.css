@@ -1,0 +1,75 @@
+body { 
+    font-family: Comfortaa;
+    font-size: 32px;
+    background: url('../img/гарантии\ фон.svg') no-repeat;
+    background-position: top;
+    overflow-x: hidden;
+    height: 1654px;
+}
+
+.medu {
+    color: white;
+    font-size: 48px;
+    margin-top: 84px;
+    margin-left: 840px;
+}
+
+.ahead {
+    font-size: 38px;
+    font-weight: bold;
+    position: absolute;
+    top: 298px;
+    left: 485px;
+}
+
+.text {
+    position: absolute;
+    top: 500px;
+    left: 107px;
+}
+
+.text p {
+    margin-bottom: 68px;
+}
+
+.prichina {
+    font-size: 32px;
+    color: #595959;
+    font-weight: lighter;
+    position: absolute;
+    top: 1210px;
+    left: 123px;
+    right: 123px;
+}
+
+/* подвал */
+
+.onas {
+    position: absolute;
+    top: 1554px;
+    left: 400px;
+}
+
+.garant {
+    position: absolute;
+    top: 1554px;
+    left: 622px;
+}
+
+.cont {
+    position: absolute;
+    top: 1554px;
+    left: 924px;
+}
+
+.yslyg {
+    position: absolute;
+    top: 1554px;
+    left: 1233px;
+}
+
+.user {
+    position: absolute;
+    top: 1525px;
+    left: 1470px;
+}

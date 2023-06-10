@@ -1,0 +1,64 @@
+body { 
+    font-family: Comfortaa;
+    font-size: 32px;
+    background: url('../img/фон_услуги.svg') no-repeat;
+    background-position: top;
+    overflow-x: hidden;
+    height: 1444px;
+}
+
+.medu {
+    color: white;
+    font-size: 48px;
+    margin-top: 84px;
+    margin-left: 840px;
+}
+
+.text {
+    position: absolute;
+    top: 320px;
+    left: 71px;
+    right: 70px;
+}
+
+.onas {
+    position: absolute;
+    top: 1313px;
+    left: 400px;
+}
+
+.garant {
+    position: absolute;
+    top: 1313px;
+    left: 622px;
+}
+
+.cont {
+    position: absolute;
+    top: 1313px;
+    left: 924px;
+}
+
+.yslyg {
+    position: absolute;
+    top: 1313px;
+    left: 1233px;
+}
+
+.user {
+    position: absolute;
+    top: 1284px;
+    left: 1470px;
+}
+
+.tick {
+    position: absolute;
+    top: 753px;
+    left: 150px;
+}
+
+.merch {
+    position: absolute;
+    top: 753px;
+    left: 966px;
+}
