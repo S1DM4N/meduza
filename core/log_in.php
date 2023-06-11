@@ -8,7 +8,7 @@ $surname = $_POST['surname'];
 $email = $_POST['email'];
 $password = $_POST['password'];
 $conf_password = $_POST['conf_password'];
-if(isset($name) & !empty($name) & isset($surname) & !empty($surname) & isset($email) & !empty($email) & isset($password) & !empty($password) & isset($conf_password) & !empty($conf_password)) {
+if(isset($name) && !empty($name) && isset($surname) && !empty($surname) && isset($email) && !empty($email) && isset($password) && !empty($password) && isset($conf_password) && !empty($conf_password)) {
     if (preg_match("/[А-Яа-яЁё]/u", $name & $surname)) {
         if (preg_match("/^[A-Z]{1}[a-zA-Z\d`~!@#$%^&*()_+-={}|:;<>?,.\/\"\'\\\[\]]*[`~!@#$%^&*()_+-={}|:;<>?,.\/\"\'\\\[\]]{1}+$/", $password)) {
             if (mysqli_num_rows(mysqli_query($connect, "SELECT `email_user` FROM `users_meduza` WHERE `email_user` = '$email'")) == 0) {    

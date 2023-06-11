@@ -11,9 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header class="header">
-	<a href="index.php"><div class="medu">MEDUZA</div></a>
-	</header>
+	<?php require_once('main_assets/header_2.php')?>
 	
 	<main class="main">
 		<div class="text">

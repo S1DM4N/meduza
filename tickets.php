@@ -1,3 +1,9 @@
+<?php 
+	require_once('core/db.php');
+
+	$check_product= mysqli_query($connect, "SELECT * FROM `products` WHERE `id_type_product` = '1'");
+?>
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -11,32 +17,19 @@
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header class="header">
-	<a href="index.php"><div class="medu">MEDUZA</div></a>
-	</header>
+	<?php require_once('main_assets/header_2.php')?>
 	
 	<main class="main">
-        <div class="text">Ознакомиться с ценами и приобрести билеты можно на этой странице.</div>
-
-		<div class="biletone"><img src="img/фон_билет.svg">
-		<div class="textone">Семейный билет (2+1)</div>
-		<div class="zenaone">1900₽</div>
-		<button>Приобрести</button></div>
-
-		<div class="biletdva"><img src="img/фон_билет.svg">
-			<div class="textdva">Семейный билет (2+2)</div>
-			<div class="zenadva">2300₽</div>
-			<button>Приобрести</button></div>
-
-		<div class="bilettri"><img src="img/фон_билет.svg">
-			<div class="texttri">Детские билеты</div>
-			<div class="zenatri">500₽</div>
-			<button>Приобрести</button></div>
-
-		<div class="biletche"><img src="img/фон_билет.svg">
-			<div class="textche">Взрослые билеты</div>
-			<div class="zenache">900₽</div>
-			<button>Приобрести</button></div>
+        <p class="text">Ознакомиться с ценами и приобрести билеты можно на этой странице.</p>
+		<div class="tickets">
+			<?php while($product = mysqli_fetch_assoc($check_product)):?>
+				<div class="ticket">
+					<p class="textdva"><?=$product['name_product']?></p>
+					<p class="zenaone"><?=$product['price_product']?>₽</p>
+					<a class="button" href="cart.php?product_id=<?=$product['id_product']?>">Приобрести</a>
+				</div>
+			<?php endwhile;?>
+		</div>
 	</main>
 	
     <?php require_once('main_assets/footer_2.php');?>

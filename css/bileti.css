@@ -5,6 +5,7 @@ body {
     background-position: top;
     overflow-x: hidden;
     height: 1833px;
+    font-style: 32px;
 }
 
 .medu {
@@ -15,37 +16,42 @@ body {
 }
 
 .text {
-    position: absolute;
-    top: 320px;
-    left: 307px;
+    margin-top: 182px;
+    text-align: center;
 }
 
-/* билет 2+1 */
+/* билет*/
 
-.biletone {
-    position: absolute;
-    top: 556px;
-    left: 307px;
+.tickets {
+    display: flex;
+    margin: 200px 300px 100px 300px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.textone {
-    font-size: 36px;
-    font-weight: bold;
-    position: absolute;
-    top: 84px;
-    left: 91px;
+.ticket {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    padding: 84px 86px;
+    box-sizing: border-box;
+    width: 608px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
 }
 
-.zenaone {
-    position: absolute;
-    top: 190px;
-    left: 255px;
+.ticket p {
+    margin-bottom: 62px;
+    text-align: center;
 }
 
-button {
-    position: absolute;
-    top: 292px;
-    left: 150px;
+.ticket button {
+    margin: 0 auto;
+}
+
+
+.button {
     font-family: Comfortaa;
     font-size: 32px;
     border-radius: 20px;
@@ -55,119 +61,9 @@ button {
     user-select: none; 
     background: #4E88A6;
     padding: 11px 44px; 
+    width: 228px;
+    margin: 0 auto;
 }
-
-/* билет 2+2 */
-
-.biletdva {
-    position: absolute;
-    top: 556px;
-    left: 1012px;
-}
-
-.textdva {
-    font-size: 36px;
-    font-weight: bold;
-    position: absolute;
-    top: 84px;
-    left: 91px;
-}
-
-.zenadva {
-    position: absolute;
-    top: 190px;
-    left: 255px;
-}
-
-button {
-    position: absolute;
-    top: 292px;
-    left: 150px;
-    font-family: Comfortaa;
-    font-size: 32px;
-    border-radius: 20px;
-    border: none;
-    color: #fff;
-    text-decoration: none;
-    user-select: none; 
-    background: #4E88A6;
-    padding: 11px 44px; 
-}
-
-/* билет детский */
-
-.bilettri {
-    position: absolute;
-    top: 1068px;
-    left: 307px;
-}
-
-.texttri {
-    font-size: 36px;
-    font-weight: bold;
-    position: absolute;
-    top: 84px;
-    left: 133px;
-}
-
-.zenatri {
-    position: absolute;
-    top: 190px;
-    left: 261px;
-}
-
-button {
-    position: absolute;
-    top: 292px;
-    left: 150px;
-    font-family: Comfortaa;
-    font-size: 32px;
-    border-radius: 20px;
-    border: none;
-    color: #fff;
-    text-decoration: none;
-    user-select: none; 
-    background: #4E88A6;
-    padding: 11px 44px; 
-}
-
-/* билет взрослый */
-
-.biletche {
-    position: absolute;
-    top: 1068px;
-    left: 1012px;
-}
-
-.textche {
-    font-size: 36px;
-    font-weight: bold;
-    position: absolute;
-    top: 84px;
-    left: 126px;
-}
-
-.zenache {
-    position: absolute;
-    top: 190px;
-    left: 262px;
-}
-
-button {
-    position: absolute;
-    top: 292px;
-    left: 150px;
-    font-family: Comfortaa;
-    font-size: 32px;
-    border-radius: 20px;
-    border: none;
-    color: #fff;
-    text-decoration: none;
-    user-select: none; 
-    background: #4E88A6;
-    padding: 11px 44px; 
-}
-
 
 /* подвал */
 

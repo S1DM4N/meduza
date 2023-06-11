@@ -11,9 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header class="header">
-		<a	href="localhost/meduza/"><div class="medu">MEDUZA</div></a>
-	</header>
+	<?php require_once('main_assets/header_2.php')?>
 	
 	<main class="main">
 		<div class="karta"><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8ed4d36db40b99bd6a56b48a9e22bc1d6144eb81eee710d75992c42e45e50203&amp;width=1215&amp;height=681&amp;lang=ru_RU&amp;scroll=true"></script></div>
