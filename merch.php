@@ -38,13 +38,14 @@
                         <p>Цвет: <?=$cloth['color_product']?></p>
                         <p>Размер: унисекс</p>
                     </div>
-                    <a href="cart.php?product_id=<?=$cloth['id_product']?>" class="button">Приобрести</a>
+                    <p class="price"><?=$cloth['price_product']?>₽</p>
+                    <a href="core/func_cart.php?product_id=<?=$cloth['id_product']?>" class="button">Приобрести</a>
                 </div>
             <?php endwhile;?>
             </div>
             
             <!-- игрушки -->
-            <h1 class="igrushki">Игрушки</h1>
+            <h1>Игрушки</h1>
             <div class="products">
             <?php while($toys = mysqli_fetch_assoc($check_toys)):?>
                 <div class="product">
@@ -53,7 +54,8 @@
                     <div class="desc">
                         <p>Цвет: <?=$toys['color_product']?></p>
                     </div>
-                    <a href="cart.php?product_id=<?=$toys['id_product']?>" class="button">Приобрести</a>
+                    <p class="price"><?=$toys['price_product']?>₽</p>
+                    <a href="core/func_cart.php?product_id=<?=$toys['id_product']?>" class="button">Приобрести</a>
                 </div>
             <?php endwhile;?>
             </div>

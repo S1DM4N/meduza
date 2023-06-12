@@ -1,5 +1,5 @@
 <?php 
-	require_once('core/db.php');
+	require_once 'core/db.php';
 
 	$check_product= mysqli_query($connect, "SELECT * FROM `products` WHERE `id_type_product` = '1'");
 ?>
@@ -26,7 +26,7 @@
 				<div class="ticket">
 					<p class="textdva"><?=$product['name_product']?></p>
 					<p class="zenaone"><?=$product['price_product']?>₽</p>
-					<a class="button" href="cart.php?product_id=<?=$product['id_product']?>">Приобрести</a>
+					<a class="button" href="core/func_cart.php?product_id=<?=$product['id_product']?>">Приобрести</a>
 				</div>
 			<?php endwhile;?>
 		</div>

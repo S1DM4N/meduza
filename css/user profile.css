@@ -118,10 +118,11 @@ body {
     background: #EFF3F6;
     border-radius: 10px;
     width: 701px;
-    height: 761px;
+    height: 640px;
     position: absolute;
     top: 229px;
     left: 1074px;
+    padding-top: 132px;
 }
 
 .text {
@@ -138,18 +139,26 @@ body {
     background: #D6E4EF;
     border-radius: 30px;
     width: 648px;
-    height: 120px;
-    position: absolute;
-    top: 150px;
-    left: 27px;
+    padding: 28px 0;
+    margin: 0 auto 20px auto;
 }
 
-.bilet {
+.backbilet p {
     color: #8FA9BD;
     font-size: 32px;
-    position: absolute;
-    top: 42px;
-    left: 187px;
+    text-align: center;
+}
+
+.backbilet p:first-child {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.backbilet p:last-child {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
 }
 
 /* история покупок */
@@ -177,8 +186,8 @@ body {
 .korzn {
     font-size: 32px;
     position: absolute;
-    top: 828px;
-    left: 462px;
+    top: 587px;
+    left: -665px;
     display: flex;
     align-items: end;
 }

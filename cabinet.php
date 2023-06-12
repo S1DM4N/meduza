@@ -1,4 +1,11 @@
-<?php session_start();?>
+<?php
+session_start();
+require_once 'core/db.php';
+$id_user = $_SESSION['user']['id_user'];
+$orders = mysqli_query($connect, "SELECT * FROM `orders` WHERE `id_user` =  '$id_user'");
+
+
+?>
 
 <!DOCTYPE html>
 <html lang="ru">
@@ -37,10 +44,12 @@
 
         <div class="history">
         <div class="text">История покупок</div>
-    
-        <div class="backbilet"><div class="bilet">данные билета</div></div>
-        <div class="backpokypki"><div class="pokypki">данные покупки</div></div></div>
-
+        <?php foreach($orders as $order):?>
+        <div class="backbilet">
+                <p>Заказ №<?=$order['id_order']?></p>
+                <p>Дата: <?=$order['date_time']?></p>
+        </div>
+        <?php endforeach;?>
         <a href="cart.php" class="korzn"><img src="img/корзина.svg">Корзина</a>
 	</main>
 	
